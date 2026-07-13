@@ -2,56 +2,39 @@
 <html>
     <head>
         <title>GT Career Website</title>
-        <style>
-            h1 {
-                font-size: 35px;
-                font-family: 'Times New Roman', Times, serif;
-                font-weight: normal;
-                color: darkcyan;
-                text-align:center;
-            }
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
+        <style>
             #logo {
                 width: 100%;
-                height: 300px;
-               object-fit: cover; 
-            }
-
-            #homepg {
-                font-size: 15px;
-                font-weight: normal;
-                color:rgb(8, 35, 58);
-                max-width: 750px;
-                margin: auto;
-            }
-
-            .Copyright {
-                color: brown;
-                text-align: center;
-                margin: 10 auto;
+                object-fit: cover;
+                height: 250px;
             }
         </style>
+
     </head>
     <body>
-        <div id="homepg">
-            <H1>Gautam Career Portal</H1>
-            <img id="logo" src="/static/Banner.jpg">
-            <h2>About Us</h2>
-            <p>
+        <div class="container">
+            <H1 class="text-center mt-3 mb-3">Gautam Career Portal</H1>
+            <img id="logo" class="img-fluid" src="/static/Banner.jpg">
+            <h2 class="text-center mt-2">About Us</h2>
+            <p class="lead">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt maiores facilis autem non, perferendis inventore nisi accusantium a dolorum consequuntur fuga similique? Repellendus facere eos blanditiis cumque, distinctio provident unde?
             </p>
-            <h3>Open Positions</h3>
-            <p>
+            <h3 class="text-center">Open Positions</h3>
+            <p class="lead">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt maiores facilis autem non, perferendis inventore nisi accusantium a dolorum consequuntur fuga similique? Repellendus facere eos blanditiis cumque, distinctio provident unde?
             </p>
-            <h3>TODO - Show the jobs here</h3>
-            <p>
+            <h3 class="text-center">TODO - Show the jobs here</h3>
+            <p class="lead">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt maiores facilis autem non, perferendis inventore nisi accusantium a dolorum consequuntur fuga similique? Repellendus facere eos blanditiis cumque, distinctio provident unde?
             </p>
-            <div style="text-align: center;">
-                <button>Contact Us</button>
+            <div class="text-center">
+                <button type="button" class="btn btn-primary btn-lg">Contact Us</button>
             </div>
-            <p class="Copyright">Copyright 2026, GT</p>
+            <p class="text-center mt-2 mb-3" >Copyright 2026, GT</p>
         </div>
     </body>
 </html>
