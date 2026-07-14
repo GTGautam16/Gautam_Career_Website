@@ -14,6 +14,9 @@
         {% endif %}
     </div>
     <div class="col-2">
-        <a href="mailto:https://gautam-career-website.onrender.com?subject=Application%20to%20apply%20for%{{job['title']}}&body=My%20name%20%3A%20%3CEnter%20your%20name%3E%0D%0A%0D%0ALinkedIn%20Profile%20%3A%20%3CEnter%20your%20LinkedIn%20profile%3E%0D%0A%0D%0AResume%20Link%20%3A%20%3CEnter%20your%20Resume%20Link%3E"  type="button" class="btn btn-outline-info">Apply</a>
+        <a href="mailto:gautamgupta2022@kccemsr.edu.in?subject=Application%20to%20apply%20for%20{{ job['title'] | urlencode }}&body=My%20name%20%3A%20%3CEnter%20your%20name%3E%0D%0A%0D%0ALinkedIn%20Profile%20%3A%20%3CEnter%20your%20LinkedIn%20profile%3E%0D%0A%0D%0AResume%20Link%20%3A%20%3CEnter%20your%20Resume%20Link%3E" 
+        class="btn btn-outline-info">
+        Apply
+        </a>
     </div>
 </div>
