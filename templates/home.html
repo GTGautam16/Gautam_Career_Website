@@ -18,16 +18,24 @@
 
     </head>
     
-    <body>
+    <body style="padding-top: 60px;">
+        {% include 'navbar.html' %}
+        <img id="logo" class="img-fluid" src="/static/Banner.jpg">
         <div class="container">
-            <H1 class="text-center mt-3 mb-3">{{company_name}} Career Portal</H1>
+            <H1 class="text-center mt-2 mb-3">{{company_name}} Career Portal</H1>
 
-            <img id="logo" class="img-fluid" src="/static/Banner.jpg">
+            <div class="row" style="margin-bottom: 16px;">
+                <div class="col-md- 6">
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt maiores facilis autem non, perferendis inventore nisi accusantium a dolorum consequuntur fuga similique? Repellendus facere eos blanditiis cumque, distinctio provident unde?
+                    </p>
+                </div>
+                <div class="d-none d-md-block col-md-6">
+                <img src="/static/Tiny people searching for business opportunities.jpg"
+                  style="height: 220px; border-radius: 4px;">
 
-            <h2 class="text-center mt-2">About Us</h2>
-            <p class="lead">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt maiores facilis autem non, perferendis inventore nisi accusantium a dolorum consequuntur fuga similique? Repellendus facere eos blanditiis cumque, distinctio provident unde?
-            </p>
+                </div>
+            </div>
 
             <h3 class="text-center mb-3">Open Positions</h3>
             <div>
@@ -39,8 +47,7 @@
             <div class="text-center">
                 <button type="button" class="btn btn-primary btn-lg">Contact Us</button>
             </div>
-
-            <p class="text-center mt-2 mb-3" >Copyright 2026, GT</p>
         </div>
+        {% include 'footer.html' %}
     </body>
 </html>
